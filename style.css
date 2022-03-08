@@ -1,0 +1,156 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+.header {
+  height: 90px;
+  width: 100%;
+  border-bottom: 2px solid #83A5FF;
+  padding: 0;
+}
+.top {
+  height: 45px;
+  background-color:#83A5FF;
+  margin: auto;
+  display: flex;
+  padding: 0;
+}
+.navbar {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;   
+}
+.navbar-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  position: absolute;
+}
+.navbar-item {
+  width: 291px;
+  height: 59px;
+  text-decoration: none;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.logo {
+  width: 110px;
+  height: 75px;
+}
+.menu-information {
+  min-height: 440px;
+  border-bottom: 4px solid #D2DEFF;
+}
+.title {
+  height: 48px;
+  background-color: #D2DEFF;
+  padding: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.what { 
+  font-size: 48px;
+  padding-left: 36px;
+  margin-top: 10px;
+  width: auto;
+}
+.info-printer {
+  max-width: 415px;
+  padding-left: 36px;
+  text-indent: 8px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.decoration {
+  width: 308px;
+  height: 531px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #D2DEFF;
+  float: right;
+  display: flex;
+}
+.printer {
+  width: 300px;
+  height: 235px;
+  margin-left: 500px;
+}
+.view {
+  border-bottom: 4px solid #D2DEFF;
+  min-height: 620px;
+}
+.decoration_two {
+  width: 310px;
+  height: 620px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #D2DEFF;
+  float: right;
+  display: flex;
+}
+.view_pri {
+  font-size: 18px;
+  padding-left: 36px;
+}
+.view_menu {
+  list-style: none;
+  position: absolute;
+}
+.view_item {
+  color: #0F51FF;
+  font-size: 36px;
+  line-height: 70px;
+}
+.image {
+  width: 406px;
+  height: 177px;
+  display: block;
+  margin: 0 auto; 
+  padding-top: 30px;
+}
+footer {
+  background-color:#83A5FF;
+  margin-top: 30px;
+}
+.footer {
+  margin: auto;
+  justify-content: space-between;   
+}
+.navbar-menu_footer {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.view_item_a {
+  text-decoration: none;
+  color: #0F51FF;
+}
+.view_item_a:hover {
+  text-decoration: none;
+  color: #0F51FF;
+  font-size:40px;
+  text-shadow: 1px 1px 2px rgb(139, 139, 139);
+}
+.select_printer{
+  border:none;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 36px;
+  width: 200px;
+  cursor: pointer; 
+}
+option {
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #fff;
+}
+option:hover {
+  cursor: pointer;
+  font-size: 24px;
+  background-color:#83A5FF;
+}
